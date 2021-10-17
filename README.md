@@ -1,8 +1,28 @@
 # Handy-Stuufs
+1)Add correct host key in known_hosts" / multiple ssh host keys per hostname?
+
+2)How to use REMOTE DESTOP CONNECTION in place of VNC viewer
+
+## Add correct host key in known_hosts" / multiple ssh host keys per hostname?
+https://serverfault.com/questions/321167/add-correct-host-key-in-known-hosts-multiple-ssh-host-keys-per-hostname
+
+> get the rsa key of your server, where server_ip is your server's IP address, such as 192.168.2.1:
+> 
+> $ ssh-keyscan -t rsa server_ip
+> 
+> Sample response:
+> 
+> # server_ip SSH-2.0-OpenSSH_4.3
+> server_ip ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAwH5EXZG...
+> and on the client, copy the entire response line server_ip ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAwH5EXZG..., and add this key to the bottom of your ~/.ssh/known_hosts file:
+> 
+> server_ip ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAqx9m529...(the offending key, and/or the very bottom of the `known_hosts` file)
+> server_ip ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAwH5EXZG... (line you're adding, copied an
 
 ## How to use REMOTE DESTOP CONNECTION in place of VNC viewer
 
 ssh to raspberry:
+
 then install these:
 
 `sudo apt-get install xrdp `
