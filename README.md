@@ -1,7 +1,8 @@
 # Handy-Stuufs
 1)Add correct host key in known_hosts" / multiple ssh host keys per hostname?
 
-2)How to use REMOTE DESTOP CONNECTION in place of VNC viewer
+2)How to use REMOTE DESTOP CONNECTION in place of VNC viewer:
+https://github.com/amiteshkr63/Handy-Stuufs/blob/main/README.md#how-to-use-remote-destop-connection-in-place-of-vnc-viewer
 
 ## Add correct host key in known_hosts" / multiple ssh host keys per hostname?
 https://serverfault.com/questions/321167/add-correct-host-key-in-known-hosts-multiple-ssh-host-keys-per-hostname
