@@ -42,4 +42,6 @@ then install these:
 
 ![Screenshot (1761)](https://user-images.githubusercontent.com/88953654/136336222-1bfece82-febd-432e-ae85-aa750cf231a6.png)
 
-
+## Using Ethernet cable and Laptop(via Remote Desktop):
+  Just type "raspberrypi" or "<ip_address_of_raspberrypi>" in "Remote Desktop Connection"
+  
