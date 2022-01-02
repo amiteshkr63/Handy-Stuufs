@@ -46,7 +46,9 @@ then install these:
   Just type "raspberrypi" or "<ip_address_of_raspberrypi>" in "Remote Desktop Connection"
   
 ### Interfacing LCD with RaspberryPi:
+   LCD Installation on RaspberryPi.docx
    Reference:
     https://trickiknow.com/raspberry-pi-3-complete-tutorial-2018-lets-get-started/
-  
+  ![robu-10-1](https://user-images.githubusercontent.com/88953654/147870937-edfcb7a6-716c-438d-889e-13de4ff21482.jpg)
+
   
