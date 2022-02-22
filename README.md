@@ -59,26 +59,30 @@ then install these:
   https://trickiknow.com/raspberry-pi-3-complete-tutorial-2018-lets-get-started/
  ![robu-10-1](https://user-images.githubusercontent.com/88953654/147870937-edfcb7a6-716c-438d-889e-13de4ff21482.jpg)
 
-## How to convert Dynamic IP of RaspberryPi3 to Static ip:
+## How to convert Dynamic IP of RaspberryPi to Static ip:
 
 `
 vi /etc/netplan
-`> network:
->   ethernets:
->     eno1:
->       dhcp4: no
->       addresses: [172.16.100.129/24]
->       gateway4: 172.16.101.254
->       nameservers:
->               addresses: [8.8.8.8,8.8.4.4]
->     enp4s0:
->       dhcp4: true
->   version: 2
-                
+`
+
+ network:
+   ethernets:
+     eno1:
+       dhcp4: no
+       addresses: [172.16.100.129/24]
+       gateway4: 172.16.101.254
+       nameservers:
+               addresses: [8.8.8.8,8.8.4.4]
+     enp4s0:
+       dhcp4: true
+   version: 2
+   
+   
                 OR
-                
+   
+   
 sudo /etc/netplan
 
-'sudo apt-get install netplan'
+sudo apt-get install netplan
         
         
