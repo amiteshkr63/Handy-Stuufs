@@ -80,11 +80,15 @@ vi /etc/netplan
    version: 2
    
 > See the netplan.txt for Format
-   
+
+![Screenshot (2060)](https://user-images.githubusercontent.com/88953654/155137974-52e18a2f-6a99-47b3-992c-ed5c08fbe05a.jpg)
+
+
                 OR
       
 sudo /etc/netplan
 
 sudo apt-get install netplan
-        
+
+[https://askubuntu.com/questions/1267724/problems-with-netplans-config-for-ubuntu-server-18-04-5-for-raspberry-pi](url)
         
