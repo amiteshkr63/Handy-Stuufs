@@ -61,9 +61,9 @@ then install these:
 
 ## How to convert Dynamic IP of RaspberryPi3 to Static ip:
 
-'vi /etc/netplan'
+vi /etc/netplan
 
-`network:
+network:
   ethernets:
     eno1:
       dhcp4: no
@@ -73,11 +73,11 @@ then install these:
               addresses: [8.8.8.8,8.8.4.4]
     enp4s0:
       dhcp4: true
-  version: 2`
+  version: 2
                 
                 OR
                 
-'sudo /etc/netplan'
+sudo /etc/netplan
 
 'sudo apt-get install netplan'
         
