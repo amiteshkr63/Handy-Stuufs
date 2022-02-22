@@ -63,21 +63,17 @@ then install these:
 
 `
 vi /etc/netplan
-`
-
-`
-network:
-  ethernets:
-    eno1:
-      dhcp4: no
-      addresses: [172.16.100.129/24]
-      gateway4: 172.16.101.254
-      nameservers:
-              addresses: [8.8.8.8,8.8.4.4]
-    enp4s0:
-      dhcp4: true
-  version: 2
-`
+`> network:
+>   ethernets:
+>     eno1:
+>       dhcp4: no
+>       addresses: [172.16.100.129/24]
+>       gateway4: 172.16.101.254
+>       nameservers:
+>               addresses: [8.8.8.8,8.8.4.4]
+>     enp4s0:
+>       dhcp4: true
+>   version: 2
                 
                 OR
                 
