@@ -4,6 +4,10 @@
 2)How to use REMOTE DESTOP CONNECTION in place of VNC viewer:
 https://github.com/amiteshkr63/Handy-Stuufs/blob/main/README.md#how-to-use-remote-destop-connection-in-place-of-vnc-viewer
 
+3)Interfacing LCD with RaspberryPi:
+
+4)How to convert Dynamic IP of RaspberryPi3 to Static ip:
+
 ## Add correct host key in known_hosts" / multiple ssh host keys per hostname?
 https://serverfault.com/questions/321167/add-correct-host-key-in-known-hosts-multiple-ssh-host-keys-per-hostname
 
@@ -55,4 +59,26 @@ then install these:
   https://trickiknow.com/raspberry-pi-3-complete-tutorial-2018-lets-get-started/
  ![robu-10-1](https://user-images.githubusercontent.com/88953654/147870937-edfcb7a6-716c-438d-889e-13de4ff21482.jpg)
 
-  
+## How to convert Dynamic IP of RaspberryPi3 to Static ip:
+
+'vi /etc/netplan'
+
+`network:
+  ethernets:
+    eno1:
+      dhcp4: no
+      addresses: [172.16.100.129/24]
+      gateway4: 172.16.101.254
+      nameservers:
+              addresses: [8.8.8.8,8.8.4.4]
+    enp4s0:
+      dhcp4: true
+  version: 2`
+                
+                OR
+                
+'sudo /etc/netplan'
+
+'sudo apt-get install netplan'
+        
+        
