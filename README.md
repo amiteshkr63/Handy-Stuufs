@@ -65,6 +65,8 @@ then install these:
 vi /etc/netplan
 `
 
+> paste below lines in vi /etc/netplan
+
  network:
    ethernets:
      eno1:
@@ -77,10 +79,10 @@ vi /etc/netplan
        dhcp4: true
    version: 2
    
+> See the netplan.txt for Format
    
                 OR
-   
-   
+      
 sudo /etc/netplan
 
 sudo apt-get install netplan
